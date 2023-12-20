@@ -40,3 +40,9 @@ pdm install --verbose
 ```sh
 source .venv/bin/activate
 ```
+
+# Запуск
+
+```
+uvicorn main:app --reload
+```
