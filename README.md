@@ -1,8 +1,7 @@
 # introduction-generation
 Сервис для генерации введения.
 
-![Uploading Снимок экрана 2023-12-20 в 15.01.38.png…]()
-
+<img width="1280" alt="Снимок экрана 2023-12-20 в 15 01 38" src="https://github.com/kasougi/introduction-generation/assets/62507503/6db03e32-5d7b-4ebe-b879-2db760f90543">
 
 Для проекта требуется:
 * Python >=3.8
