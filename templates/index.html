@@ -1,0 +1,21 @@
+<!-- templates/index.html -->
+<html>
+    <head>
+        <title>FastAPI Одна Страница</title>
+        <link rel="stylesheet" href="/static/style.css">
+    </head>
+    <body>
+        <h1>Сервис для генерации введения</h1>
+        <p>Ведите тему вашей курсовой работы и ожидайте генерации.</p>
+
+        <form method="post">
+            <label for="input_text">Тема курсовой:</label>
+            <input type="text" id="input_text" name="input_text">
+            <input type="submit" value="Отправить">
+        </form>
+
+        {% if input_text %}
+            <p>Введение: {{ input_text }}</p>
+        {% endif %}
+    </body>
+</html>
